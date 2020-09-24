@@ -1,0 +1,115 @@
+*{
+    margin: 0px;padding: 0px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+nav{
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-family: Comic Sans MS;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background: rgb(24,42,143);
+background: linear-gradient(34deg, rgba(24,42,143,1) 0%, rgba(0,128,230,1) 48%, rgba(0,252,220,1) 100%);
+}
+section  {
+    
+    height: 500px;
+
+    width: 100%;
+    
+}
+section .score_display{
+    width: 100%;
+    
+    height: 30%;
+    
+    
+}
+section .score_display p{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+section .score_display #s{
+    
+    height: 25%;
+    font-size: 20px;
+
+
+}
+section .score_display #score{
+    color:#10ffe1;
+  
+    height:75% ;
+    font-size:110px;
+
+}
+section .over_display{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+section .buttons{
+    height: 10%;
+    width: 100%;
+    background-color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .buttons div{
+    height: 90%;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+section .buttons div button{
+    background: rgb(24,42,143);
+background: linear-gradient(34deg, rgba(24,42,143,1) 0%, rgba(0,128,230,1) 48%, rgba(0,252,220,1) 100%);
+    border: 0px;
+    border-radius: 5px;
+   
+    font-size: 20px;
+    color: white;
+
+}
+section .sb{
+    height: 50% ;   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+section .sb .sb2{
+    height: 60%;
+    width: 70%;
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 5%;   
+    
+}
+section .sb .sb2 button{
+    background: rgb(24,42,143);
+background: linear-gradient(34deg, rgba(24,42,143,1) 0%, rgba(0,128,230,1) 48%, rgba(0,252,220,1) 100%);
+    border: 0px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: white;
+}

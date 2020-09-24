@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="score.css">
+    <script>
+        window.onbeforeunload = function (event) {
+                event.returnValue = "Write something clever here..";
+            };
+    </script>
+    
+</head>
+<script src="score.js">   
+        
+</script>
+<body>
+    <nav>Mussapur Cricket</nav>
+    <section>
+        <div class="score_display">
+            <p id="s">Scores:</p>
+            <p id="score">0</p>
+        </div>
+        <div class="over_display">
+            <p id="over">0.0</p>
+        </div>     
+        <div class="buttons">
+            <div>
+                <button id="click" onclick="add()" class="b">Ball</button>
+                <button id="undo" onclick="undo()">Back</button>
+
+            </div>
+            
+
+        </div>
+        <div class="sb">
+            <div class="sb2">
+                <button id="zero" onclick="marks(0)" style="display:none;">0</button>
+                <button id="one" onclick="marks(1)" style="display:none;">1</button>
+                <button id="two" onclick="marks(2)" style="display:none;">2</button>
+                
+                <button id="three" onclick="marks(3)" style="display:none;">3</button>
+                <button id="four" onclick="marks(4)" style="display:none;">4</button>
+                <button id="six" onclick="marks(6)" style="display:none;">6</button>
+
+            </div>
+            
+
+        </div>
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+    </section>
+
+    
+      
+       
+    
+</body>
+</html>
